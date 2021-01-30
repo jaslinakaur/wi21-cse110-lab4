@@ -84,7 +84,7 @@
     
 21. Output: 1 4 3 2
     It first logs 1.
-    It takes a whole second before it logs 2, but while it is waiting, it sees the commands to log 3 and to log 4. Since 4 is just logged without any other information, it logs immediately, while for 3, it has to go through the function call, so it take a very small moment longer. 2 is printed last because it waited a full second.
+    It takes a whole second before it logs 2, but while it is waiting, it sees the commands to log 3 and to log 4. Since 4 is just logged without any other information, it logs immediately, while for 3, it has to go through the function call, so it take a very small moment longer. 2 is printed last because it waited a full second. 
     
     
     
