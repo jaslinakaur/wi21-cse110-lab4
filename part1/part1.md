@@ -35,17 +35,16 @@
     But, since we are considering that all previous lines pass/don't error, then since discounted is a const, it cannot be changed, so it would still be an empty array: [] at the end.
     
 13. Write the notation:
-  - a.
+  - a. access the value in name with: student.name;
   
-  - b.
+  - b. access the value of Grad Year with: student["Grad Year"];
   
-  - c.
+  - c. call the function with: student.greeting();
   
-  - d.
+  - d. access name of Favorite Teacher with: student["Favorite Teacher"].name;
   
-  - e.
+  - e. access first index of courseLoad with: student.courseLoad[0];
   
-
 14.
 
 15.
