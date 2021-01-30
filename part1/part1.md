@@ -82,7 +82,9 @@
 
 19.  Pass in modifyArray([1,2,3], doSomething) will return [6,8,10]. The for loop runs 3 times since the array passed in has 3 values. In each iteration, when it sees callback(array[i], it jumps down to the doSomething function that was given as a parameter. In the first iteration, array[0] is 1, so in the doSomething function, it adds 1 + 2, and returns back the value of 3. The 3 then goes into the function as x and is multiplied by 2, returning the value 6 and pushing it into  newArr. This is then repeated 2 more times for array[1] and array[2]. At the end, the newArr array is returned.
     
-21. 
+21. Output: 1 4 3 2
+    It first logs 1.
+    It takes a whole second before it logs 2, but while it is waiting, it sees the commands to log 3 and to log 4. Since 4 is just logged without any other information, it logs immediately, while for 3, it has to go through the function call, so it take a very small moment longer. 2 is printed last because it waited a full second.
     
     
     
