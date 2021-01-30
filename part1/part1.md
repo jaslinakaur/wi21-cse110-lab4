@@ -32,7 +32,6 @@
 12. The variable discounted was declared as a const empty array []. This means it cannot be reassigned.
     The code fails in the loop when we try to reassign the value of finalPrice, which is necessary to do line 8 where the value is pushed into discounted.
     So, the return line will not even be reached - there will be an error.
-    But, since we are considering that all previous lines pass/don't error, then since discounted is a const, it cannot be changed, so it would still be an empty array: [] at the end.
     
 13. Write the notation:
   - a. access the value in name with: student.name;
@@ -80,7 +79,10 @@
 17. output: 'Goodbye'
     When comparing a boolean and number, the boolean converts to a number, so the true becomes 1.
     Since 1 != 2, it moves on to the else if statement. This again checks if 2 == true, which is false, so it defaults to the else statement.
+
+19.  Pass in modifyArray([1,2,3], doSomething) will return [6,8,10]. The for loop runs 3 times since the array passed in has 3 values. In each iteration, when it sees callback(array[i], it jumps down to the doSomething function that was given as a parameter. In the first iteration, array[0] is 1, so in the doSomething function, it adds 1 + 2, and returns back the value of 3. The 3 then goes into the function as x and is multiplied by 2, returning the value 6 and pushing it into  newArr. This is then repeated 2 more times for array[1] and array[2]. At the end, the newArr array is returned.
     
+21. 
     
     
     
