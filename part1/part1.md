@@ -77,7 +77,9 @@
   
 16. == checks for equality between the operands on either side. ===, instead checks the types of the operands it is comparing and returns true or false based on if the operands are of the same type.
 
-17. 
+17. output: 'Goodbye'
+    When comparing a boolean and number, the boolean converts to a number, so the true becomes 1.
+    Since 1 != 2, it moves on to the else if statement. This again checks if 2 == true, which is false, so it defaults to the else statement.
     
     
     
