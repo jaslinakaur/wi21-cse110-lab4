@@ -45,11 +45,39 @@
   
   - e. access first index of courseLoad with: student.courseLoad[0];
   
-14.
+14. Arithmetic:
+   - a. '32' -> a string value. The first operand was a string, and + can mean concatenation, so the 2 operands were just concatenated together. 
+   
+   - b. 1 -> - is not a string operation the way + can be. Also, this was a numeric operation, so it converted to numbers automatically.
+   
+   - c. 3 -> 3 is a number. When being added to a number, null automatically converts to 0.
+  
+   - d. '3null' -> '3' was a string, and + is a string operation, so null was just added to the end of the string.
+  
+   - e. 4 ->  true converts to 1 as a number and was being added to another number, 3.
+   
+   - f. 0 -> both false and null convert to 0 in numeric conversion.
+  
+   - g. "3undefined" -> "3" was a string and + adds strings together, so undefined was interpretted as a string as well.
+  
+   - h. NaN -> - is not a string operation, so the result cannot be interpretted as a string, and underfined is not a number either.
+   
+15. Comparison: 
+   - a. true -> different types being compared convert to numbers 
+   
+   - b. false -> strings are being compared here, so according to the dictionary, 2 comes after 1, so this statement must be false.
+   
+   - c. true -> comparing different types makes them both numbers.
+  
+   - d. false -> === checks for types, and since 2 is a number and '2' is a string, it automatically returns false.
+  
+   - e. false ->  true is equal to the value 1, not 2
+   
+   - f. true -> this is type checking, and both sides are Boolean, so it returns true.
+  
+16. == checks for equality between the operands on either side. ===, instead checks the types of the operands it is comparing and returns true or false based on if the operands are of the same type.
 
-15.
-
-
+17. 
     
     
     
